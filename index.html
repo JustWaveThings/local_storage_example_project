@@ -13,17 +13,23 @@
 <body>
 
   <div class="container">
-    <div class="to-do-app">
-      <h2>To-do App</h2>
-      <label for="item"></label>
+    <div class="input-box">
+      <label for="color">Color Name</label>
       <br>
-      <input id="item" type="text">
+      <input type="text" id="color">
       <br>
       <br>
-      <button onclick="add()">Add</button>
-      <button onclick="del()">Del</button>
+      <label for="hex">Hex Code</label>
+      <br>
+      <input type="text" id="hex">
+      <br>
+      <br>
+      <button onclick="add()">Enter</button>
+      <button onclick="del()">Delete</button>
     </div>
-    <ul></ul>
+  </div>
+  <div class="container">
+    <div class="color-boxes"></div>
   </div>
 
 </body>
